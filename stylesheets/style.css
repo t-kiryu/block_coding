@@ -133,9 +133,37 @@ font-size: 2rem;
 .header-nav-menu {
   display: flex;
 }
+
+.header-nav-menu-item > a {
+  color: #FFF7F7;
+}
+
+.header-nav-menu-item > a:hover,
+.header-nav-menu-item > a:focus {
+  color: #FFC4C4;
+}
 /*--- Main-Hero */
+.main-hero {
+  background-color: #6B4E71;
+}
 
+.main-hero-highlight,
+.main-hero-highlight-links a {
+  color: #FFF7F7;
+}
 
+.main-hero-highlight-links p {
+  font-size: 1.2rem;
+}
+
+.main-hero-highlight-links p > a {
+  text-decoration: underline;
+}
+
+.main-hero-highlight-links a:hover,
+.main-hero-highlight-links a:focus {
+  color: #FFC4C4;
+}
 /*--- Main-Works */
 
 
