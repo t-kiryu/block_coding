@@ -185,4 +185,45 @@ font-size: 2rem;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 15%), 10px 10px 0 #6B4E71;
 }
 
+/* Main-About */
+.main-about {
+  background-color: #FFF;
+}
+
+.main-about-addition-skills ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.main-about-addition-follow a {
+  color: #C2B2B4;
+}
+
+.main-about-addition-follow a:hover,
+.main-about-addition-follow a:focus {
+  color: #AB9698;
+}
+
 /*--- Footer ---*/
+.footer {
+  background-color: #3A4454;
+  color: #FFF7F7;
+}
+
+.footer-form form,
+.footer-form-input,
+.footer-form-textarea {
+  width: 100%;
+}
+
+.footer-form-input input,
+.footer-form-textarea textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #C2B2B4;
+  border-radius: 5px;
+  color: #FFF7F7;
+}
+
+.footer-form-input input::placeholder,
+
