@@ -226,4 +226,19 @@ font-size: 2rem;
 }
 
 .footer-form-input input::placeholder,
+.footer-form-textarea textarea::placeholder {
+  color: #9C9DA5;
+}
 
+.footer-form-input input:hover,
+.footer-form-input input:focus,
+.footer-form-textarea textarea:hover,
+.footer-form-textarea textarea:focus {
+  background-color: rgba(0, 0, 0, 10%);
+}
+
+.footer-form-input input:focus-visible,
+.footer-form-textarea textarea:focus-visible {
+  outline: 1px solid #C2B2B4;
+  border: 1px solid #C2B2B4;
+}
