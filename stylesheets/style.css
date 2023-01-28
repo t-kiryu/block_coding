@@ -216,6 +216,27 @@ font-size: 2rem;
   width: 100%;
 }
 
+.footer-form-input {
+  position: relative;
+}
+
+.footer-form-input i {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  color: #FFF7F7;
+}
+
+.footer-form-input input {
+  padding: 10px 15px 10px 40px;
+}
+
+.footer-form-textarea textarea {
+  height: 150px;
+  padding: 10px 15px;
+  resize: none;
+}
+
 .footer-form-input input,
 .footer-form-textarea textarea {
   width: 100%;
@@ -241,4 +262,15 @@ font-size: 2rem;
 .footer-form-textarea textarea:focus-visible {
   outline: 1px solid #C2B2B4;
   border: 1px solid #C2B2B4;
+}
+
+.footer-info-nav-menu ul {
+  font-family: "Piazzolla", "Times New Roman", "YuMincho",
+               "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.footer-info-nav-menu a {
+  color: #FFF7F7;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
