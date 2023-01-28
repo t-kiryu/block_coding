@@ -274,3 +274,22 @@ font-size: 2rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
+
+.footer-info-nav-menu a:hover,
+.footer-info-nav-menu a:focus {
+  color: #9C9DA5;
+}
+
+.footer-info-follow a {
+  color: #9C9DA5;
+  font-size: 1.5rem;
+}
+
+.footer-info-follow a:hover,
+.footer-info-follow a:focus {
+  color: #81838D;
+}
+
+.footer-info-copy {
+  color: #9C9DA5;
+}
