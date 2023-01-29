@@ -1,16 +1,47 @@
-@charset "UTF-8"
-
 /*--- Tablet Styling ---*/
 @media screen and (min-width: 48em) {
-  
-}
+  h1, h2 {
+    font-size: 2.25rem;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    margin-bottom: 60px;
+  }
+
+  h2 > i {
+    margin-right: 20px;
+  }
 
 /*--- Reusable Classes ---*/
+  .container {
+    padding: 0 40px;
+  }
 
 /*--- Header ---*/
+  .header {
+    padding: 20px 40px;
+  }
 
+  .header-logo-img {
+    width: 60px;
+  }
+
+  .header-nav-menu-item {
+    margin-left: 40px;
+  }
+
+  .header-nav-menu-item > a {
+    font-size: 1.5rem;
+  }
+  }
 /*--- Main-Hero */
 
 /*--- Main-Works */
 
 /*--- Footer ---*/
+
+}
