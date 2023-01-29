@@ -37,9 +37,21 @@
   .header-nav-menu-item > a {
     font-size: 1.5rem;
   }
-  }
-/*--- Main-Hero */
 
+/*--- Main-Hero */
+  .main-hero-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-hero-highlight {
+    width: 60%;
+  }
+
+  .main-hero-img {
+    display: block;
+    width: 40%;
+  }
 /*--- Main-Works */
 
 /*--- Footer ---*/
