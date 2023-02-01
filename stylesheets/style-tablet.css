@@ -107,6 +107,42 @@
     margin-right: 50px;
     margin-bottom: 0;
   }
+
 /*--- Footer ---*/
-  
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .footer-form,
+  .footer-info {
+    width: 50%;
+  }
+
+  .footer-form {
+    margin-bottom: 0;
+  }
+
+  .footer-form-textarea {
+    margin-bottom: 30px;
+  }
+
+  .footer-info {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .footer-info-follow {
+    margin-bottom: 140px;
+  }
+
+  .footer-info-copy {
+    margin-bottom: 0;
+  }
 }
